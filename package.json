@@ -1,0 +1,20 @@
+{
+  "name": "gg",
+  "version": "1.0.0",
+  "description": "unit test merge func",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha",
+    "clean": "del src\\*.js test\\*.js"
+  },
+  "main": "n",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.4"
+  }
+}
